@@ -1,7 +1,7 @@
-// Import the functions you need from the SDKs you need
+
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-// analytics es opcional, lo podemos sacar para simplificar
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyDHmHkxRxKJ1Qswcxn9LOsirYjQ4ItKau8",
@@ -13,9 +13,8 @@ const firebaseConfig = {
   measurementId: "G-ZFCB2C2RBG"
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 
-// 👇 ESTA LÍNEA ES LA CLAVE
 export const db = getFirestore(app);
 

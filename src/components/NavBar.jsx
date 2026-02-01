@@ -18,13 +18,13 @@ const NavBar = () => {
 
   return (
     <nav className="navbar">
-      {/* LOGO */}
+      
       <Link to="/" className="logo">
         Mi Tienda
       </Link>
 
       <ul className="nav-links">
-        {/* INICIO */}
+      
         <li>
           <NavLink
             to="/"
@@ -34,12 +34,12 @@ const NavBar = () => {
           </NavLink>
         </li>
 
-        {/* CARRITO ICONO */}
+      
         <li>
           <CartWidget />
         </li>
 
-        {/* CATEGORÍAS */}
+      
         <li className="dropdown">
           <button
             className="dropdown-btn"
@@ -67,7 +67,7 @@ const NavBar = () => {
           )}
         </li>
 
-        {/* LINK CARRITO TEXTO */}
+      
         <li className="cart">
           <NavLink
             to="/cart"
