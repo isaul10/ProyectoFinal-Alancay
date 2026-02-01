@@ -1,0 +1,78 @@
+/* CONTENEDOR PRINCIPAL */
+.navbar {
+  width: 100%;
+  background-color:blue;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* LOGO */
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: 30px;
+  padding: 0;
+}
+
+/* LINKS */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* DROPDOWN CONTENEDOR */
+.dropdown {
+  position: relative;
+}
+
+/* BOTÓN CATEGORÍAS */
+.dropdown-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* MENÚ DESPLEGABLE */
+.dropdown-menu {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  background-color: #333;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  min-width: 160px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+/* ITEMS DEL DROPDOWN */
+.dropdown-menu li {
+  padding: 8px 15px;
+}
+
+/* LINKS DROPDOWN */
+.dropdown-menu li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+/* HOVER */
+.dropdown-menu li:hover {
+  background-color: #444;
+}
